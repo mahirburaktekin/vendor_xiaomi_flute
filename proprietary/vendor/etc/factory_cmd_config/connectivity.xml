@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TestCases>
+    <Description>connectivity</Description>
+<!--WIFI-->
+    <Item>
+        <Description>Wifi Enable</Description>
+        <Step index="1">
+            <type>exec</type>
+            <addr>svc wifi enable</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+    </Item>
+
+    <Item>
+        <Description>Wifi Disable</Description>
+        <Step index="1">
+            <type>exec</type>
+            <addr>svc wifi disable</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+    </Item>
+
+    <Item>
+        <Description>Wifi Address</Description>
+        <Step index="1">
+            <type>exec</type>
+            <addr>ifconfig wlan0</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+    </Item>
+
+    <Item>
+        <Description>Wifi Factory Mode</Description>
+        <Step index="1">
+            <type>exec</type>
+            <addr>svc wifi disable</addr>
+            <operation>exec</operation>
+            <value type="show">0</value>
+        </Step>
+        <Step index="2">
+            <type>exec</type>
+            <addr>ifconfig wlan0 up</addr>
+            <operation>exec</operation>
+            <value type="show">0</value>
+        </Step>
+        <Step index="3">
+            <type>exec</type>
+            <addr>iwpriv wlan0 version</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+        <Step index="4">
+            <type>exec</type>
+            <addr>echo 5 > /sys/module/wlan/parameters/con_mode</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+    </Item>
+
+    <Item>
+        <Description>Wifi Scan</Description>
+        <Step index="4">
+            <type>exec</type>
+            <addr>svc wifi disable</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+        <Step index="1">
+            <type>exec</type>
+            <addr>echo 1 > /dev/wmtWifi</addr>
+            <operation>exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+        <Step index="2">
+            <type>exec</type>
+            <addr>ifconfig wlan0 up</addr>
+            <operation delay="1000">exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+        <Step index="3">
+            <type>exec</type>
+            <addr>iw wlan0 scan</addr>
+            <operation delay="1000">exec</operation>
+            <value type="show">ERROR</value>
+        </Step>
+    </Item>
+
+</TestCases>

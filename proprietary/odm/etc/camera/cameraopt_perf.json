@@ -1,0 +1,47 @@
+{
+    "CLUSTER_NUMS" : ["3"],
+    "CLUSTER_OPCODE_INFO" : [
+        "0, 0x40804100, 0x40800100",
+        "1, 0x40804000, 0x40800000",
+        "2, 0x40804200, 0x40800200"
+    ],
+    "GPU_OPCODE_INFO" : ["0x42808000"],
+    "perf_params": {
+        "camera_boost_max": [
+            "0x40C00000, 0x1,          //MPCTLV3_SCHED_BOOST, 0x1",
+            "0x40804100, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40800100, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40804000, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40800000, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40804200, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xffff",
+            "0x40800200, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xffff"
+        ],
+        "camera_boost_thermal_1": [
+            "0x40C00000, 0x1,          //MPCTLV3_SCHED_BOOST, 0x1",
+            "0x40804100, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40800100, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40804000, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40800000, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40804200, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xffff",
+            "0x40800200, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xffff"
+        ],
+        "camera_boost_thermal_2": [
+            "0x40C00000, 0x1,          //MPCTLV3_SCHED_BOOST, 0x1",
+            "0x40804100, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40800100, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40804000, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40800000, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40804200, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xffff",
+            "0x40800200, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xffff"
+        ],
+        "camera_boost_thermal_3": [
+            "0x40C00000, 0x1,          //MPCTLV3_SCHED_BOOST, 0x1",
+            "0x40804100, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40800100, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xffff",
+            "0x40804000, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40800000, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xffff",
+            "0x40804200, 0xffff,       //MPCTLV3_MAX_FREQ_CLUSTER_PLUS_CORE_0, 0xffff",
+            "0x40800200, 0xffff,       //MPCTLV3_MIN_FREQ_CLUSTER_PLUS_CORE_0, 0xffff"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+# add boot_mode service
+service boot_mode /vendor/bin/boot_mode
+    class main
+    disabled
+    oneshot
+    seclabel u:r:boot_mode:s0
+
+on property:sys.bootmode.enable=1
+    start boot_mode

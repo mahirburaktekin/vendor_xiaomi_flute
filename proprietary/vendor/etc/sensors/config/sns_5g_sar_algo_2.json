@@ -1,0 +1,55 @@
+{
+  "config": {
+    "hw_platform": ["MTP", "IDP", "IDPS", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["641", "640", "636", "657", "658","712"],
+    "ro.boot.board_id": ["P83001AA1"]
+  },
+  "sar_algo_2": {
+    "owner": "sar_algo_2",
+    ".params":{
+      "owner": "sar_algo_2",
+        "threshold1": {
+          "ver": "3", "type": "flt", "data": "420"
+        },
+        "threshold2": {
+          "ver": "2", "type": "flt", "data": "4200"
+        },
+        "threshold3": {
+          "ver": "3", "type": "flt", "data": "3780"
+        },
+        "threshold4": {
+          "ver": "0", "type": "flt", "data": "1650"
+        },
+        "threshold5": {
+          "ver": "0", "type": "flt", "data": "1650"
+        },
+        "use_acc_gyro": {
+          "ver": "0", "type": "flt", "data": "0"
+        },
+        "use_qmi": {
+          "ver": "0", "type": "flt", "data": "0"
+        },
+        "stepcount": {
+          "ver": "0", "type": "flt", "data": "100"
+        },
+        "use_step": {
+          "ver": "0", "type": "flt", "data": "1"
+        }
+    },
+    ".params_reg2":{
+      "owner": "sar_algo_2",
+        "threshold1": {
+          "ver": "0", "type": "flt", "data": "3000"
+        },
+        "threshold2": {
+          "ver": "0", "type": "flt", "data": "600"
+        },
+        "threshold3": {
+          "ver": "0", "type": "flt", "data": "1500"
+        },
+        "threshold4": {
+          "ver": "0", "type": "flt", "data": "500"
+        }
+    }
+  }
+}

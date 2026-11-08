@@ -1,0 +1,19 @@
+{
+  "itemConfig": [
+    {
+      "showName": "SpeakerRightUp"
+    },
+    {
+      "showName": "SpeakerRightDown"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "OTG"
+    }
+  ]
+}

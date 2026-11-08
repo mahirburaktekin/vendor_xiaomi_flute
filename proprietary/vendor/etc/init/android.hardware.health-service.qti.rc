@@ -1,0 +1,28 @@
+service vendor.health-default /vendor/bin/hw/android.hardware.health-service.qti
+    class hal
+    user system
+    group system
+    capabilities WAKE_ALARM BLOCK_SUSPEND
+    file /dev/kmsg w
+
+#service vendor.charger /vendor/bin/hw/android.hardware.health-service.qti --charger
+#    class charger
+#    seclabel u:r:charger_vendor:s0
+#    user system
+#    group system wakelock input graphics
+#    capabilities SYS_BOOT WAKE_ALARM BLOCK_SUSPEND
+#    file /dev/kmsg w
+
+service vendor.charger /system/bin/charger
+    class chargerr
+    user system
+    group system graphics input
+    capabilities SYS_BOOT
+    seclabel u:r:charger:s0
+
+on charger
+    write /dev/kmsg "qtirc start charger wait"
+    wait /sys/class/power_supply/battery 10
+    wait /sys/class/power_supply/wait 2
+    write /dev/kmsg "qtirc start charger finish"
+    class_start chargerr

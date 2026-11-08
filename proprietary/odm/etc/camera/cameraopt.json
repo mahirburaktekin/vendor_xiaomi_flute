@@ -1,0 +1,73 @@
+{
+    "CameraBooster": {
+        "configs": [
+            {
+                "name": "white_list",
+                "config": [
+                    "com.android.settings"
+                ]
+            }
+        ]
+        "mem_compact_threshold": {
+            "wide_normal": 716800,
+            "wide_hdr": 716800,
+            "wide_sr": 1024000,
+            "wide_sn": 921600,
+            "wide_burst": 1126400,
+            "wide_hdrsr": 1126400,
+            "wide_fusion": 716800,
+            "wide_sr_fusion": 716800,
+            "wide_vendor_mfnr": 716800,
+            "wide_mihal_mfnr": 716800,
+            "wide_bokeh": 1433600,
+            "wide_bokeh_md": 1331200,
+            "wide_bokeh_hdr": 1536000,
+            "wide_bokeh_se": 1433600,
+            "wide_hd_remosaic": 1024000,
+            "wide_hd_upscale": 716800,
+            "wide_manual": 409600,
+            "wide_ainr": 716800,
+            "wide_hd_ainr": 1536000,
+            "front_normal": 512000,
+            "front_hdr": 645120,
+            "front_sn": 337920,
+            "front_vendor_mfnr": 512000,
+            "front_mihal_mfnr": 512000,
+            "front_bokeh": 819200,
+            "front_bokeh_hdr": 949200
+        },
+        "oom": {
+            "oom_level": "128000:0,166400:100,204800:200,256000:251,338944:701,470016:800",
+                        "psi_level": "28,20,13,8",
+                        "adj_level": "251,200,100,100,50"
+        },
+        "oom_6Gmem": {
+            "oom_level": "172032:0,176640:100,181248:200,238600:250,281100:800,314880:950"
+        },
+        "threshold_16Gmem": {
+            "cam_boost_threshold": 4500000
+        },
+        "threshold_6Gmem": {
+                        "skip_task": 2,
+                        "skip_task_lower": 1,
+                        "adj_threshold": 701,
+                        "lowAdj_threshold": 0,
+                        "lowerAdj_freeMem_threshold": 512000,
+                        "cam_boost_threshold": 2508800,
+                        "update_state_delay_ms": 5000,
+                        "intercept_restart_time": 3000,
+                        "3rdcam_boost_threshold": 1572864,
+                        "3rd_skip_task_lower": 2,
+                        "dynamic_interval": 5000,
+                        "free_memory_threshold": 563200
+        },
+        "threshold_8Gmem": {
+                        "recent_task_pss_threshold": 819200,
+                        "protect_locktask_num": 1,
+                        "free_memory_threshold": 512000,
+                        "cam_boost_threshold": 2097152,
+                        "lowerAdj_freeMem_threshold": 512000
+        }
+    },
+    "version": "1.0"
+}

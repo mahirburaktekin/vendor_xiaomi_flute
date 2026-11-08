@@ -1,0 +1,21 @@
+# add eu_mode service
+service eu_mode /vendor/bin/eu_mode
+    class last_start
+    user root
+    group system system wakelock
+    disabled
+    oneshot
+    seclabel u:r:eu_mode:s0
+
+on post-fs-data
+    chmod 0664 /sys/class/qcom-battery/is_eu_model
+    start eu_mode
+
+on property:sys.boot_completed=1
+    chmod 0664 /sys/class/qcom-battery/is_eu_model
+    start eu_mode
+
+#run eu_mode in off-charge mode
+on charger
+    chmod 0664 /sys/class/qcom-battery/is_eu_model
+    start eu_mode

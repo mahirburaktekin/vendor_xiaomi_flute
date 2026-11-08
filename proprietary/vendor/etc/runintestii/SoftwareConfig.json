@@ -1,0 +1,102 @@
+{
+  "itemConfig": [
+    {
+      "Action": "com.factory.runintestii.QMESAtest",
+      "Support": false,
+      "IsForeGround": false,
+      "RunAlone": false,
+      "Name": "other_QMESA",
+      "ParamOneCycle": 1,
+      "ParameOneCycleTime": "1200000",
+      "Parameter": {}
+    },
+    {
+      "Action": "com.factory.runintestii.emmctest",
+      "Support": true,
+      "IsForeGround": false,
+      "RunAlone": false,
+      "Name": "other_EMMCtest",
+      "support_ghr": true,
+      "ParamOneCycle": 1,
+      "ParameOneCycleTime": "1000000",
+      "Parameter": {
+        "EmmcReadWriteWaittime": 40,
+        "remained_space_rate": 0.2
+      }
+    },
+    {
+      "Action": "com.factory.runintestii.vibrator",
+      "Support": false,
+      "IsForeGround": false,
+      "RunAlone": false,
+      "Name": "software_Vibrator",
+      "ParamOneCycle": 1,
+      "ParameOneCycleTime": "900000",
+      "Parameter": {
+        "vibrator_time": 2000,
+        "stop_vibrator_time": 1000
+      }
+    },
+    {
+      "Action": "com.factory.runintestii.fingertest",
+      "Support": false,
+      "IsForeGround": false,
+      "RunAlone": false,
+      "Name": "software_FingerTest",
+      "ParamOneCycle": 2000,
+      "ParameOneCycleTime": "",
+      "Parameter": {
+        "interval": 500
+      }
+    },
+    {
+      "Action": "com.factory.runintestii.videotest",
+      "Support": true,
+      "IsForeGround": true,
+      "RunAlone": false,
+      "Name": "software_VideoTest",
+      "ParamOneCycle": 1,
+      "ParameOneCycleTime": "120000",
+      "Parameter": {
+        "interval": 1000
+      }
+    },
+    {
+      "Action": "com.factory.runintestii.patestQCOM",
+      "Support": false,
+      "P83001AA1": {
+        "Support": true,
+		"IsForeGround": false,
+		"RunAlone": true,
+		"Name": "other_patest_QCOM",
+		"ParamOneCycle": 3,
+		"ParameOneCycleTime": "600000",
+		"Parameter": {
+          "PaTestJsonFile": "PaTestCmd_GLB.json"
+      }
+      },
+      "P83001EA1": {
+		"Support": true,
+		"IsForeGround": false,
+		"RunAlone": true,
+		"Name": "other_patest_QCOM",
+		"ParamOneCycle": 3,
+		"ParameOneCycleTime": "600000",
+		"Parameter": {
+          "PaTestJsonFile": "PaTestCmd_CN.json"
+      }
+      },
+      "P83001IA1": {
+		"Support": true,
+		"IsForeGround": false,
+		"RunAlone": true,
+		"Name": "other_patest_QCOM",
+		"ParamOneCycle": 3,
+		"ParameOneCycleTime": "600000",
+		"Parameter": {
+          "PaTestJsonFile": "PaTestCmd_IN.json"
+      }
+      }
+    }
+  ]
+}

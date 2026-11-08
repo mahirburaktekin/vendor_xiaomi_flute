@@ -1,0 +1,141 @@
+{
+  "mmigroupConfig": {
+    "hideDiskMountUi": true
+  },
+  "systemConfig": {
+    "Attestation": false,
+    "Widewine": false,
+    "IFAA_Version": false,
+    "FIDO_Version": false
+  },
+  "itemConfig": [
+    {
+      "showName": "VersionInfo",
+      "paramconfig": {
+        "AddInfo": {
+          "CPUID": "any",
+          "BuildNumber": "any",
+          "BaseBandVersion": "any",
+          "KernelVersion": "any",
+          "System_Verity": "true"
+        }
+      }
+    },
+    {
+      "showName": "SimCard_HotPlug"
+    },
+    {
+      "showName": "Sdcard_Intent"
+    },
+	{
+      "showName": "KeyPad",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN"
+        ]
+      }
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "DynamicTouchScreen"
+    },
+    {
+      "showName": "TouchScreen"
+    },
+
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "MainCamera_DarkState"
+    },
+
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "FrontCamera_DarkState"
+    },
+    {
+      "showName": "LightTEST"
+    },
+    {
+      "showName": "Charge"
+    },
+    {
+      "showName": "WlanAP"
+    },
+    {
+      "showName": "WlanAddress"
+    },
+    {
+      "showName": "BluetoothDevice"
+    },
+    {
+      "showName": "BluetoothAddress"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "support_udisk": true,
+        "is_show_storage": true,
+        "support_typec": true,
+        "support_mouse": true
+      }
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Gyroscope"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "SpeakerLeftUp"
+    },
+  	{
+      "showName": "SpeakerRightUp"
+    },
+    {
+      "showName": "SpeakerLeftDown"
+    },
+	 {
+      "showName": "SpeakerRightDown"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "ESIMCard"
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "SIMCardTray"
+    }
+  ]
+}

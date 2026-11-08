@@ -1,0 +1,64 @@
+service interfaces.factoryInterface@1.0-service /vendor/bin/hw/interfaces.factoryInterface@1.0-service
+    class late_start
+    user system
+    group root system nfc sdcard_rw sdcard_r media_rw oem_2901 vendor_qti_diag
+    seclabel u:r:factory_services:s0
+
+#for wlan and bt ftmdaemon test
+on property:vendor.ptt_ffbm_bt=start
+    start ffbm_bt
+
+on property:vendor.ptt_ffbm_bt=stop
+    stop ffbm_bt
+
+on property:vendor.ptt_ffbm_wifi=start
+    #ifconfig wlan0 up
+    write /sys/module/qca_cld3_qca6750/parameters/con_mode 5
+    chmod 0777 /proc/cldqca6750/athdiagpfs
+    start ffbm_wifi
+
+on property:vendor.ptt_ffbm_wifi=stop
+    write /sys/module/qca_cld3_qca6750/parameters/con_mode 0
+    stop ffbm_wifi
+
+service ffbm_bt /vendor/bin/ftmdaemon -n -dd
+    user system
+    group system
+    seclabel u:r:hal_bluetooth_default:s0
+    disabled
+
+service ffbm_wifi /vendor/bin/ftmdaemon -n -dd
+    user root
+    group system vendor_qti_diag
+    disabled
+
+on property:ro.factory_mode=1
+    chmod 6755 /system/xbin/su
+    chmod 0664 /sys/class/drm/card0-DSI-1/hbm
+	chown root system /dev/block/by-name/gsort
+	chown root system /dev/block/sda17
+	chmod 0666 /dev/block/sda17
+	chown root system /dev/block/sde66
+	chmod 0666 /dev/block/sde66
+	chown root system /data/local
+	chmod 0751 /data/local
+	chown root system /data/local/tmp
+	chmod 0777 /data/local/tmp
+	chmod 0222 /sys/kernel/debug/aoss_send_message
+    chmod 0664 /sys/class/drm/card0-DSI-1/doze_brightness
+#   chmod 0664 /sys/class/leds/vibrator/osc_cali
+
+on property:ro.factory_mode=1 && property:vendor.factory.start_gsort=start
+    exec u:r:su:s0 -- /vendor/bin/start_gsort.sh
+    setprop vendor.factory.start_gsort done
+
+on property:ro.factory_mode=1 && property:vendor.factory.ddr_tool.runtime=*
+    start ddr_tool_test_factory
+
+service ddr_tool_test_factory /vendor/bin/ddr_tool -r -t ${vendor.factory.ddr_tool.runtime}
+    class core
+    user root
+    group system
+    oneshot
+    disabled
+    seclabel u:r:factory_services:s0

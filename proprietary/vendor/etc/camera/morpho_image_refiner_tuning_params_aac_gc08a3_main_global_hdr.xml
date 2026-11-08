@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Morpho Image Refiner Parameters Configuration -->
+<!-- Copyright(c) 2021 Morpho China,Inc.  -->
+
+<image_refiner>
+	<!-- Please do not change the prefix Param_V4.1.1_  -->
+    <version   type="string" length="1">Param_V4.1.1_P83_hdr_main_GC08A3_20251020</version>
+	<camera_id type="int"    length="1">1</camera_id>
+	
+    <params>
+        <iso value="100">
+			<y_nr_level       			type="float"  	rang="[0.0,100.0]"  default="10.0"  length="1">0.0</y_nr_level>
+			<c_nr_level       			type="float"  	rang="[0.0,10.0]"   default="1.0"   length="1">0</c_nr_level>
+			<c_nr_times       			type="int"    	rang="[1,6]"        default="1"     length="1">0</c_nr_times>
+
+			<hdr_obc       		  		type="double" 	rang="[0.0,10.0]"   default="1.2"   length="1">0.8</hdr_obc>
+			<hdr_obc_thres       		type="double" 	rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_obc_thres>
+			<hdr_irr_obc_thres      	type="double" 	rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_irr_obc_thres>
+			<deghost_over_exposure_rate_thres type="double" 	  	rang="[0.0,1.0]" default="0.006"   length="1">0.006</deghost_over_exposure_rate_thres>
+
+            <lce_level      		  	type="double" 	rang="[0.0,1.0]"    default="0"     length="1">0</lce_level>
+			<lce_eps              	    type="double" 	rang="[0.0,1.0]"    default="1"     length="1">0</lce_eps>
+
+			<lb_contrast      			type="int"    	rang="[0, 1.0]"     default="0"     length="1">0.000</lb_contrast>
+			<hb_contrast      			type="int"    	rang="[0, 1.0]"     default="0"     length="1">0.000</hb_contrast>
+			<face_lb_contrast    		type="int"    	rang="[0, 1.0]"     default="0"     length="1">0.004</face_lb_contrast>
+			<face_hb_contrast      		type="int"    	rang="[0, 1.0]"     default="0"     length="1">0.004</face_hb_contrast>
+
+			<unsharp_level       		type="int"    	rang="[0,1]"    	default="0"     length="1">0.0</unsharp_level>
+			<unsharp_noise_level        type="double" 	rang="[0.0,1.0]" 	default="0"     length="1">0</unsharp_noise_level>
+			<unsharp_range_high     	type="double" 	rang="[0.0,5.0]"    default="0.9"   length="1">1.0</unsharp_range_high>
+			<unsharp_range_low   	    type="double" 	rang="[0.0,5.0]"    default="0.4"   length="1">0.4</unsharp_range_low>
+			<unsharp_black_level  	    type="double" 	rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_black_level>
+			<unsharp_white_level  	    type="double" 	rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_white_level>
+
+			<lb_exposure      			type="int"    	rang="[0.0,255.0]"  default="0"     length="1">120</lb_exposure>
+			<hb_exposure      			type="int"    	rang="[0.0,255.0]"  default="0"     length="1">150</hb_exposure>
+			<face_lb_exposure      		type="double" 	rang="[0.0,255.0]"  default="10"    length="1">140</face_lb_exposure>
+            <face_hb_exposure      		type="double" 	rang="[0.0,255.0]"  default="130"   length="1">160</face_hb_exposure>
+			<merge_mu                   type="double" 	rang="[0,1]"   	  	default="0.6"   length="1">0.65</merge_mu>
+			<face_merge_mu              type="double" 	rang="[0,1]"   	  	default="0.6"   length="1">0.55</face_merge_mu>
+
+			<enable_auto_color              type="double" 	rang="[0,1]"   	  	default="0.6"   length="1">0</enable_auto_color>
+		</iso>
+	
+		<iso value="300">
+			<y_nr_level       			type="float"  rang="[0.0,100.0]"  default="10.0"  length="1">0.0</y_nr_level>
+			<c_nr_level       			type="float"  rang="[0.0,10.0]"   default="1.0"   length="1">0</c_nr_level>
+			<c_nr_times       			type="int"    rang="[1,6]"        default="1"     length="1">0</c_nr_times>
+
+			<hdr_obc       		  		type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.5</hdr_obc>
+			<hdr_obc_thres       		type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_obc_thres>
+			<hdr_irr_obc_thres      	type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_irr_obc_thres>
+			<deghost_over_exposure_rate_thres         type="double" 	  rang="[0.0,1.0]"    default="0.006"   length="1">0.006</deghost_over_exposure_rate_thres>
+ 
+			<lce_level      		  	type="double" rang="[0.0,1.0]"   default="0"     length="1">0</lce_level>
+			<lce_eps              	    type="double" rang="[0.0,1.0]"   default="1"     length="1">0</lce_eps>
+
+			<lb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</lb_contrast>
+			<hb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</hb_contrast>
+			<face_lb_contrast    		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_lb_contrast>
+			<face_hb_contrast      		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_hb_contrast>
+
+			<unsharp_level       		type="int"    rang="[0, 4095]"    default="900"   length="1">0</unsharp_level>
+			<unsharp_noise_level        type="double" rang="[0.0,100.0]"  default="0"     length="1">0</unsharp_noise_level>
+			<unsharp_range_high    	    type="double" rang="[0.0,10.0]"   default="0.9"   length="1">1.0</unsharp_range_high>
+			<unsharp_range_low   	    type="double" rang="[0.0,10.0]"   default="0.4"   length="1">0.4</unsharp_range_low>
+			<unsharp_black_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_black_level>
+			<unsharp_white_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_white_level>
+
+			<lb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">150</lb_exposure>
+			<hb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">180</hb_exposure>
+			<face_lb_exposure      		type="double" rang="[0.0,255.0]"  default="10"    length="1">150</face_lb_exposure>
+            <face_hb_exposure      		type="double" rang="[0.0,255.0]"  default="130"   length="1">200</face_hb_exposure>
+			<merge_mu                   type="double" rang="[0,1]"        default="0.6"   length="1">0.55</merge_mu>
+			<face_merge_mu              type="double" rang="[0,1]"        default="0.6"   length="1">0.55</face_merge_mu>
+		</iso>
+
+		<iso value="500">
+			<y_nr_level       			type="float"  rang="[0.0,100.0]"  default="10.0"  length="1">0.0</y_nr_level>
+			<c_nr_level       			type="float"  rang="[0.0,10.0]"   default="1.0"   length="1">0</c_nr_level>
+			<c_nr_times       			type="int"    rang="[1,6]"        default="1"     length="1">0</c_nr_times>
+
+			<hdr_obc       		  		type="double" rang="[0.0,10.0]"   default="1.2"   length="1">2.0</hdr_obc>
+			<hdr_obc_thres       		type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_obc_thres>
+			<hdr_irr_obc_thres      	type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_irr_obc_thres>
+			<deghost_over_exposure_rate_thres         type="double" 	  rang="[0.0,1.0]"    default="0.006"   length="1">0.003</deghost_over_exposure_rate_thres>
+
+            <lce_level      		  	type="double" rang="[0.0,1.0]"    default="0"     length="1">0</lce_level>
+			<lce_eps              	    type="double" rang="[0.0,1.0]"    default="1"     length="1">0</lce_eps>
+
+			<lb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</lb_contrast>
+			<hb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</hb_contrast>
+			<face_lb_contrast    		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_lb_contrast>
+			<face_hb_contrast      		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_hb_contrast>
+
+			<unsharp_level       		type="int"    rang="[0, 4095]"    default="900"   length="1">0</unsharp_level>
+			<unsharp_noise_level        type="double" rang="[0.0,100.0]"  default="0"     length="1">0</unsharp_noise_level>
+			<unsharp_range_high    	    type="double" rang="[0.0,10.0]"   default="0.9"   length="1">1.0</unsharp_range_high>
+			<unsharp_range_low   	    type="double" rang="[0.0,10.0]"   default="0.4"   length="1">0.4</unsharp_range_low>
+			<unsharp_black_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_black_level>
+			<unsharp_white_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_white_level>
+
+			<lb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">200</lb_exposure>
+			<hb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">220</hb_exposure>
+			<face_lb_exposure      		type="double" rang="[0.0,255.0]"  default="10"    length="1">160</face_lb_exposure>
+            <face_hb_exposure      		type="double" rang="[0.0,255.0]"  default="130"   length="1">240</face_hb_exposure>
+			<merge_mu                   type="double" rang="[0,1]"   	  default="0.6"   length="1">0.5</merge_mu>
+			<face_merge_mu              type="double" rang="[0,1]"   	  default="0.6"   length="1">0.5</face_merge_mu>
+		</iso>
+
+		<iso value="1000">
+			<y_nr_level       			type="float"  rang="[0.0,100.0]"  default="10.0"  length="1">0.0</y_nr_level>
+			<c_nr_level       			type="float"  rang="[0.0,10.0]"   default="1.0"   length="1">0</c_nr_level>
+			<c_nr_times       			type="int"    rang="[1,6]"        default="1"     length="1">0</c_nr_times>
+
+			<hdr_obc       		  		type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.5</hdr_obc>
+			<hdr_obc_thres       		type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_obc_thres>
+			<hdr_irr_obc_thres      	type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_irr_obc_thres>
+			<deghost_over_exposure_rate_thres         type="double" rang="[0.0,1.0]"      default="0.006"   length="1">0.003</deghost_over_exposure_rate_thres>
+
+			<lce_level      		  	type="double" rang="[0.0,1.0]"   default="0"     length="1">0</lce_level>
+			<lce_eps              	    type="double" rang="[0.0,1.0]"   default="1"     length="1">0</lce_eps>
+            
+			<lb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0</lb_contrast>
+			<hb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0</hb_contrast>
+			<face_lb_contrast    		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_lb_contrast>
+			<face_hb_contrast      		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_hb_contrast>
+
+			<unsharp_level       		type="int"    rang="[0, 4095]"    default="900"   length="1">0</unsharp_level>
+			<unsharp_noise_level        type="double" rang="[0.0,100.0]"  default="0"     length="1">0</unsharp_noise_level>
+			<unsharp_range_high    	    type="double" rang="[0.0,10.0]"   default="0.9"   length="1">1.0</unsharp_range_high>
+			<unsharp_range_low   	    type="double" rang="[0.0,10.0]"   default="0.4"   length="1">0.4</unsharp_range_low>
+			<unsharp_black_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_black_level>
+			<unsharp_white_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_white_level>
+
+			<lb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">200</lb_exposure>
+			<hb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">220</hb_exposure>
+			<face_lb_exposure      		type="double" rang="[0.0,255.0]"  default="10"    length="1">150</face_lb_exposure>
+            <face_hb_exposure      		type="double" rang="[0.0,255.0]"  default="130"   length="1">240</face_hb_exposure>
+			<merge_mu                   type="double" rang="[0,1]"   	  default="0.6"   length="1">0.5</merge_mu>
+			<face_merge_mu              type="double" rang="[0,1]"   	  default="0.6"   length="1">0.45</face_merge_mu>
+		</iso>
+
+		<iso value="99999">
+			<y_nr_level       			type="float"  rang="[0.0,100.0]"  default="10.0"  length="1">0.0</y_nr_level>
+			<c_nr_level       			type="float"  rang="[0.0,10.0]"   default="1.0"   length="1">0</c_nr_level>
+			<c_nr_times       			type="int"    rang="[1,6]"        default="1"     length="1">0</c_nr_times>
+
+			<hdr_obc       		  		type="double" rang="[0.0,10.0]"   default="1.2"   length="1">1.5</hdr_obc>
+			<hdr_obc_thres       		type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_obc_thres>
+			<hdr_irr_obc_thres      	type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.8</hdr_irr_obc_thres>
+			<deghost_over_exposure_rate_thres         type="double" rang="[0.0,1.0]"      default="0.006"   length="1">0.003</deghost_over_exposure_rate_thres>
+
+			<lce_level      		  	type="double" rang="[0.0,1.0]"   default="0"     length="1">0</lce_level>
+			<lce_eps              	    type="double" rang="[0.0,1.0]"   default="1"     length="1">0</lce_eps>
+            
+			<lb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0</lb_contrast>
+			<hb_contrast      			type="int"    rang="[0, 1.0]"     default="0"     length="1">0</hb_contrast>
+			<face_lb_contrast    		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_lb_contrast>
+			<face_hb_contrast      		type="int"    rang="[0, 1.0]"     default="0"     length="1">0.000</face_hb_contrast>
+
+			<unsharp_level       		type="int"    rang="[0, 4095]"    default="900"   length="1">0</unsharp_level>
+			<unsharp_noise_level        type="double" rang="[0.0,100.0]"  default="0"     length="1">0</unsharp_noise_level>
+			<unsharp_range_high    	    type="double" rang="[0.0,10.0]"   default="0.9"   length="1">1.0</unsharp_range_high>
+			<unsharp_range_low   	    type="double" rang="[0.0,10.0]"   default="0.4"   length="1">0.4</unsharp_range_low>
+			<unsharp_black_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_black_level>
+			<unsharp_white_level  	    type="double" rang="[0.0,1.0]"    default="0.2"   length="1">0.5</unsharp_white_level>
+
+			<lb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">200</lb_exposure>
+			<hb_exposure      			type="int"    rang="[0.0,255.0]"  default="0"     length="1">220</hb_exposure>
+			<face_lb_exposure      		type="double" rang="[0.0,255.0]"  default="10"    length="1">150</face_lb_exposure>
+            <face_hb_exposure      		type="double" rang="[0.0,255.0]"  default="130"   length="1">240</face_hb_exposure>
+			<merge_mu                   type="double" rang="[0,1]"   	  default="0.6"   length="1">0.5</merge_mu>
+			<face_merge_mu              type="double" rang="[0,1]"   	  default="0.6"   length="1">0.45</face_merge_mu>
+		</iso>
+    </params>
+</image_refiner>

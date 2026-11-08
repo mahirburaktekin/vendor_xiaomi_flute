@@ -1,0 +1,45 @@
+{
+  "itemConfig": [
+    {
+      "showName": "SimCard_HotPlug"
+    },
+    {
+      "showName": "Sdcard_Intent"
+    },
+    {
+      "showName": "LCD",
+        "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "1-W255;120;2048;null;0;2000",
+          "2-R255;120;2048;null;0;2000",
+          "3-G255;120;2048;null;0;2000",
+          "4-B255;120;2048;null;0;2000",
+          "5-W64;30;2048;null;0;2000",
+          "6-W0;120;2048;null;0;2000",
+          "7-Edgecheck;120;2048;null;0;2000",
+          "8-crosstalk1;120;2048;null;0;2000",
+          "10-W127;120;2048;null;0;2000",
+          "11-sub1dot;120;2048;null;0;2000",
+          "13-guodu;120;2048;null;0;2000",
+          "14-flicker;120;2048;null;0;2000"
+        ]
+      }
+    },
+    {
+      "showName": "DynamicTouchScreen",
+      "paramconfig": {
+        "auto_switch": false
+      }
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "ESIMCard"
+    },
+    {
+      "showName": "SIMCardTray"
+    }
+  ]
+}

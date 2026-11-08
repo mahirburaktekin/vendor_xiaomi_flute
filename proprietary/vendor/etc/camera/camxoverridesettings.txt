@@ -1,0 +1,40 @@
+# override flashtorch current
+overrideFlashTorchCurrent=110
+overrideFlashVideoLightCurrent=110
+overrideFlashSnapshotLightCurrent=350
+overrideFlashPreviewLightCurrent=110
+
+numPCRSBeforeStreamOn=1
+halBufferMgrMode=0
+overrideLogLevels=0x1
+logInfoMask=0x0
+logWarningMask=0x0
+logConfigMask=0x0
+logVerboseMask=0x0
+logCoreCfgMask=0x0
+logRequestMapping=false
+systemLogEnable=true
+enableAsciiLogging=0
+enableTxtLogging=0
+raiserecoverysigabrt=false
+offlineLoggerEnableBackupLog=false
+enableCameraCoreDumpBinary=false
+enableCameraCoreDumpText=false
+numberOfCpuThreads=7
+maxHalRequests=7
+numberOfCHIThreads=7
+streamBufferStall=1000
+enableHealthMonitor=false
+enableSignal35Tombstone=false
+
+invalidSOFThreshold=55
+
+#flush time
+nodeResponseTime=200
+sessionResponseTimePadding=300
+sessionMaxFlushWaitTime=1000
+sessionFallbackWaitTime = 300
+
+#bokeh mfnr
+ismfnrbokehsupported=true
+enableFilesPreloadAndPin=1

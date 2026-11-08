@@ -1,0 +1,124 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "SimCard_HotPlug"
+    },
+    {
+      "showName": "Sdcard_Intent"
+    },
+    {
+      "showName": "KeyPad",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN"
+        ]
+      }
+    },
+	{
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false
+      }
+    },
+    {
+      "showName": "DynamicTouchScreen",
+      "paramconfig": {
+        "auto_switch": false
+      }
+    },
+    {
+      "showName": "TouchScreen"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "MainCamera_DarkState"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "FrontCamera_DarkState"
+    },
+    {
+      "showName": "LightTEST"
+    },
+    {
+      "showName": "CameraLightLeak"
+    },
+    {
+      "showName": "Charge"
+    },
+    {
+      "showName": "WlanAP"
+    },
+    {
+      "showName": "WlanAddress"
+    },
+    {
+      "showName": "BluetoothDevice"
+    },
+    {
+      "showName": "BluetoothAddress"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Gyroscope"
+    },
+   {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "SpeakerLeftUp"
+    },
+    {
+      "showName": "SpeakerRightUp"
+    },
+    {
+      "showName": "SpeakerLeftDown"
+    },
+	 {
+      "showName": "SpeakerRightDown"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HeadSet"
+    },
+    {
+      "showName": "ESIMCard"
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "SIMCardTray"
+    }
+  ]
+}

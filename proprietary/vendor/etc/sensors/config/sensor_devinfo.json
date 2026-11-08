@@ -1,0 +1,54 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "IDP", "IDPS", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["641", "640", "636", "657", "658","712"]
+  },
+  "sensor_devinfo": {
+    "owner": "NA",
+    ".gsensor_lsm6dsv":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "volcano_lsm6dsv_0.json.lsm6dsv_0_platform.accel.fac_cal.bias"
+	  },
+      "key": {"type": "str", "ver": "0",
+                   "data": "lsm6dsv_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gsensor_icm4x6xx":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "volcano_icm4x6xx_0.json.icm4x6xx_0_platform.accel.fac_cal.bias"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "icm4x6xx_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".als_stk_stk6b9x": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "volcano_stk6b9x_0.json.stk6b9x_0_platform.rgb.fac_cal"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "stk6b9x_0_platform.rgb.fac_cal"
+      }
+    },
+    ".rgb_stk_stk6b9x": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "volcano_stk6b9x_0.json.stk6b9x_0_platform.rgb.fac_cal"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "stk6b9x_0_platform.rgb.fac_cal"
+      }
+    },
+    ".sar_semtech_sx937x_0": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "volcano_sx937x_0.json.sx937x_0_platform.offset"
+      },
+      "key": {"type": "str", "ver": "0",
+                   "data": "sx937x_0_platform.offset"
+      }
+    }
+  }
+}
