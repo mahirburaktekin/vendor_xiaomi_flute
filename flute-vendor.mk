@@ -1275,7 +1275,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/ffu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ffu.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hw/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hw/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/hw/init.qti.ufs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.ufs.rc \
@@ -1328,7 +1327,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
@@ -1337,12 +1335,9 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.display.demura-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.demura-service.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.factory-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.lights.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.lights.service.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc \
@@ -1351,7 +1346,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.soter-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui-aidl-service-qti.rc \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager-service.rc \
@@ -3415,3 +3409,12 @@ PRODUCT_PACKAGES += \
     flute_symlink_vendor_rfs_msm_wpss_readonly_vendor_firmware \
     flute_symlink_vendor_rfs_msm_wpss_readwrite \
     flute_symlink_vendor_rfs_msm_wpss_shared
+
+# AOSP'de tanımı olmayan vendor.qti HIDL arayüzleri içeren rc'ler (host_init_verifier'a takılmasın)
+PRODUCT_PACKAGES += \
+    flute_rc_init_qcom \
+    flute_rc_camera_provider \
+    flute_rc_dsp \
+    flute_rc_factory \
+    flute_rc_limits \
+    flute_rc_wifilearner

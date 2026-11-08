@@ -1833,3 +1833,51 @@ install_symlink {
     installed_location: "rfs/msm/wpss/shared",
     symlink_target: "/mnt/vendor/persist/rfs/shared",
 }
+
+prebuilt_etc {
+    name: "flute_rc_init_qcom",
+    src: "proprietary/vendor/etc/init/hw/init.qcom.rc",
+    filename: "init.qcom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flute_rc_camera_provider",
+    src: "proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc",
+    filename: "vendor.qti.camera.provider-service_64.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flute_rc_dsp",
+    src: "proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc",
+    filename: "vendor.qti.hardware.dsp@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flute_rc_factory",
+    src: "proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc",
+    filename: "vendor.qti.hardware.factory@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flute_rc_limits",
+    src: "proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc",
+    filename: "vendor.qti.hardware.limits-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flute_rc_wifilearner",
+    src: "proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc",
+    filename: "vendor.qti.hardware.wifi.wifilearner@1.0-service.rc",
+    sub_dir: "init",
+    vendor: true,
+}
