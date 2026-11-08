@@ -1,0 +1,1835 @@
+// Otomatik üretildi (gen.py)
+
+install_symlink {
+    name: "flute_symlink_vendor_app_CneApp_lib_arm64_libvndfwk_detect_jni_qti_vendor_so",
+    vendor: true,
+    installed_location: "app/CneApp/lib/arm64/libvndfwk_detect_jni.qti_vendor.so",
+    symlink_target: "/vendor/lib64/libvndfwk_detect_jni.qti_vendor.so",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin__",
+    vendor: true,
+    installed_location: "bin/[",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_acpi",
+    vendor: true,
+    installed_location: "bin/acpi",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_base64",
+    vendor: true,
+    installed_location: "bin/base64",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_basename",
+    vendor: true,
+    installed_location: "bin/basename",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_blockdev",
+    vendor: true,
+    installed_location: "bin/blockdev",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_brctl",
+    vendor: true,
+    installed_location: "bin/brctl",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cal",
+    vendor: true,
+    installed_location: "bin/cal",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cat",
+    vendor: true,
+    installed_location: "bin/cat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chattr",
+    vendor: true,
+    installed_location: "bin/chattr",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chcon",
+    vendor: true,
+    installed_location: "bin/chcon",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chgrp",
+    vendor: true,
+    installed_location: "bin/chgrp",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chmod",
+    vendor: true,
+    installed_location: "bin/chmod",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chown",
+    vendor: true,
+    installed_location: "bin/chown",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chroot",
+    vendor: true,
+    installed_location: "bin/chroot",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_chrt",
+    vendor: true,
+    installed_location: "bin/chrt",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cksum",
+    vendor: true,
+    installed_location: "bin/cksum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_clear",
+    vendor: true,
+    installed_location: "bin/clear",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cmp",
+    vendor: true,
+    installed_location: "bin/cmp",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_comm",
+    vendor: true,
+    installed_location: "bin/comm",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cp",
+    vendor: true,
+    installed_location: "bin/cp",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cpio",
+    vendor: true,
+    installed_location: "bin/cpio",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_cut",
+    vendor: true,
+    installed_location: "bin/cut",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_date",
+    vendor: true,
+    installed_location: "bin/date",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_dd",
+    vendor: true,
+    installed_location: "bin/dd",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_devmem",
+    vendor: true,
+    installed_location: "bin/devmem",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_df",
+    vendor: true,
+    installed_location: "bin/df",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_diff",
+    vendor: true,
+    installed_location: "bin/diff",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_dirname",
+    vendor: true,
+    installed_location: "bin/dirname",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_dmesg",
+    vendor: true,
+    installed_location: "bin/dmesg",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_dos2unix",
+    vendor: true,
+    installed_location: "bin/dos2unix",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_du",
+    vendor: true,
+    installed_location: "bin/du",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_echo",
+    vendor: true,
+    installed_location: "bin/echo",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_egrep",
+    vendor: true,
+    installed_location: "bin/egrep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_env",
+    vendor: true,
+    installed_location: "bin/env",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_expand",
+    vendor: true,
+    installed_location: "bin/expand",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_expr",
+    vendor: true,
+    installed_location: "bin/expr",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_fallocate",
+    vendor: true,
+    installed_location: "bin/fallocate",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_false",
+    vendor: true,
+    installed_location: "bin/false",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_fgrep",
+    vendor: true,
+    installed_location: "bin/fgrep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_file",
+    vendor: true,
+    installed_location: "bin/file",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_find",
+    vendor: true,
+    installed_location: "bin/find",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_flock",
+    vendor: true,
+    installed_location: "bin/flock",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_fmt",
+    vendor: true,
+    installed_location: "bin/fmt",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_free",
+    vendor: true,
+    installed_location: "bin/free",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_fsync",
+    vendor: true,
+    installed_location: "bin/fsync",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_getconf",
+    vendor: true,
+    installed_location: "bin/getconf",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_getenforce",
+    vendor: true,
+    installed_location: "bin/getenforce",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_getevent",
+    vendor: true,
+    installed_location: "bin/getevent",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_getprop",
+    vendor: true,
+    installed_location: "bin/getprop",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_grep",
+    vendor: true,
+    installed_location: "bin/grep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_groups",
+    vendor: true,
+    installed_location: "bin/groups",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_gunzip",
+    vendor: true,
+    installed_location: "bin/gunzip",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_gzip",
+    vendor: true,
+    installed_location: "bin/gzip",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_head",
+    vendor: true,
+    installed_location: "bin/head",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_hostname",
+    vendor: true,
+    installed_location: "bin/hostname",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_hwclock",
+    vendor: true,
+    installed_location: "bin/hwclock",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_i2cdetect",
+    vendor: true,
+    installed_location: "bin/i2cdetect",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_i2cdump",
+    vendor: true,
+    installed_location: "bin/i2cdump",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_i2cget",
+    vendor: true,
+    installed_location: "bin/i2cget",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_i2cset",
+    vendor: true,
+    installed_location: "bin/i2cset",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_iconv",
+    vendor: true,
+    installed_location: "bin/iconv",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_id",
+    vendor: true,
+    installed_location: "bin/id",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ifconfig",
+    vendor: true,
+    installed_location: "bin/ifconfig",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_inotifyd",
+    vendor: true,
+    installed_location: "bin/inotifyd",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_insmod",
+    vendor: true,
+    installed_location: "bin/insmod",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_install",
+    vendor: true,
+    installed_location: "bin/install",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ionice",
+    vendor: true,
+    installed_location: "bin/ionice",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_iorenice",
+    vendor: true,
+    installed_location: "bin/iorenice",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_kill",
+    vendor: true,
+    installed_location: "bin/kill",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_killall",
+    vendor: true,
+    installed_location: "bin/killall",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ln",
+    vendor: true,
+    installed_location: "bin/ln",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_load_policy",
+    vendor: true,
+    installed_location: "bin/load_policy",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_log",
+    vendor: true,
+    installed_location: "bin/log",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_logger",
+    vendor: true,
+    installed_location: "bin/logger",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_logname",
+    vendor: true,
+    installed_location: "bin/logname",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_losetup",
+    vendor: true,
+    installed_location: "bin/losetup",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ls",
+    vendor: true,
+    installed_location: "bin/ls",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_lsattr",
+    vendor: true,
+    installed_location: "bin/lsattr",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_lsmod",
+    vendor: true,
+    installed_location: "bin/lsmod",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_lsof",
+    vendor: true,
+    installed_location: "bin/lsof",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_lspci",
+    vendor: true,
+    installed_location: "bin/lspci",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_lsusb",
+    vendor: true,
+    installed_location: "bin/lsusb",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_md5sum",
+    vendor: true,
+    installed_location: "bin/md5sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_microcom",
+    vendor: true,
+    installed_location: "bin/microcom",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mkdir",
+    vendor: true,
+    installed_location: "bin/mkdir",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mkfifo",
+    vendor: true,
+    installed_location: "bin/mkfifo",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mknod",
+    vendor: true,
+    installed_location: "bin/mknod",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mkswap",
+    vendor: true,
+    installed_location: "bin/mkswap",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mktemp",
+    vendor: true,
+    installed_location: "bin/mktemp",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_modinfo",
+    vendor: true,
+    installed_location: "bin/modinfo",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_modprobe",
+    vendor: true,
+    installed_location: "bin/modprobe",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_more",
+    vendor: true,
+    installed_location: "bin/more",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mount",
+    vendor: true,
+    installed_location: "bin/mount",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mountpoint",
+    vendor: true,
+    installed_location: "bin/mountpoint",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_mv",
+    vendor: true,
+    installed_location: "bin/mv",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nc",
+    vendor: true,
+    installed_location: "bin/nc",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_netcat",
+    vendor: true,
+    installed_location: "bin/netcat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_netstat",
+    vendor: true,
+    installed_location: "bin/netstat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nice",
+    vendor: true,
+    installed_location: "bin/nice",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nl",
+    vendor: true,
+    installed_location: "bin/nl",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nohup",
+    vendor: true,
+    installed_location: "bin/nohup",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nproc",
+    vendor: true,
+    installed_location: "bin/nproc",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_nsenter",
+    vendor: true,
+    installed_location: "bin/nsenter",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_od",
+    vendor: true,
+    installed_location: "bin/od",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_paste",
+    vendor: true,
+    installed_location: "bin/paste",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_patch",
+    vendor: true,
+    installed_location: "bin/patch",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_pgrep",
+    vendor: true,
+    installed_location: "bin/pgrep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_pidof",
+    vendor: true,
+    installed_location: "bin/pidof",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_pkill",
+    vendor: true,
+    installed_location: "bin/pkill",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_pmap",
+    vendor: true,
+    installed_location: "bin/pmap",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_printenv",
+    vendor: true,
+    installed_location: "bin/printenv",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_printf",
+    vendor: true,
+    installed_location: "bin/printf",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ps",
+    vendor: true,
+    installed_location: "bin/ps",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_pwd",
+    vendor: true,
+    installed_location: "bin/pwd",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_readelf",
+    vendor: true,
+    installed_location: "bin/readelf",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_readlink",
+    vendor: true,
+    installed_location: "bin/readlink",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_realpath",
+    vendor: true,
+    installed_location: "bin/realpath",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_renice",
+    vendor: true,
+    installed_location: "bin/renice",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_restorecon",
+    vendor: true,
+    installed_location: "bin/restorecon",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_rm",
+    vendor: true,
+    installed_location: "bin/rm",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_rmdir",
+    vendor: true,
+    installed_location: "bin/rmdir",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_rmmod",
+    vendor: true,
+    installed_location: "bin/rmmod",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_rtcwake",
+    vendor: true,
+    installed_location: "bin/rtcwake",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_runcon",
+    vendor: true,
+    installed_location: "bin/runcon",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sed",
+    vendor: true,
+    installed_location: "bin/sed",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sendevent",
+    vendor: true,
+    installed_location: "bin/sendevent",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_seq",
+    vendor: true,
+    installed_location: "bin/seq",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_setenforce",
+    vendor: true,
+    installed_location: "bin/setenforce",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_setprop",
+    vendor: true,
+    installed_location: "bin/setprop",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_setsid",
+    vendor: true,
+    installed_location: "bin/setsid",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sha1sum",
+    vendor: true,
+    installed_location: "bin/sha1sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sha224sum",
+    vendor: true,
+    installed_location: "bin/sha224sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sha256sum",
+    vendor: true,
+    installed_location: "bin/sha256sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sha384sum",
+    vendor: true,
+    installed_location: "bin/sha384sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sha512sum",
+    vendor: true,
+    installed_location: "bin/sha512sum",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sleep",
+    vendor: true,
+    installed_location: "bin/sleep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sort",
+    vendor: true,
+    installed_location: "bin/sort",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_split",
+    vendor: true,
+    installed_location: "bin/split",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_start",
+    vendor: true,
+    installed_location: "bin/start",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_stat",
+    vendor: true,
+    installed_location: "bin/stat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_stop",
+    vendor: true,
+    installed_location: "bin/stop",
+    symlink_target: "toolbox",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_strings",
+    vendor: true,
+    installed_location: "bin/strings",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_stty",
+    vendor: true,
+    installed_location: "bin/stty",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_swapoff",
+    vendor: true,
+    installed_location: "bin/swapoff",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_swapon",
+    vendor: true,
+    installed_location: "bin/swapon",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sync",
+    vendor: true,
+    installed_location: "bin/sync",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_sysctl",
+    vendor: true,
+    installed_location: "bin/sysctl",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tac",
+    vendor: true,
+    installed_location: "bin/tac",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tail",
+    vendor: true,
+    installed_location: "bin/tail",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tar",
+    vendor: true,
+    installed_location: "bin/tar",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_taskset",
+    vendor: true,
+    installed_location: "bin/taskset",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tee",
+    vendor: true,
+    installed_location: "bin/tee",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_test",
+    vendor: true,
+    installed_location: "bin/test",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_time",
+    vendor: true,
+    installed_location: "bin/time",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_timeout",
+    vendor: true,
+    installed_location: "bin/timeout",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_top",
+    vendor: true,
+    installed_location: "bin/top",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_touch",
+    vendor: true,
+    installed_location: "bin/touch",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tr",
+    vendor: true,
+    installed_location: "bin/tr",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_true",
+    vendor: true,
+    installed_location: "bin/true",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_truncate",
+    vendor: true,
+    installed_location: "bin/truncate",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_tty",
+    vendor: true,
+    installed_location: "bin/tty",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uclampset",
+    vendor: true,
+    installed_location: "bin/uclampset",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_ulimit",
+    vendor: true,
+    installed_location: "bin/ulimit",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_umount",
+    vendor: true,
+    installed_location: "bin/umount",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uname",
+    vendor: true,
+    installed_location: "bin/uname",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uniq",
+    vendor: true,
+    installed_location: "bin/uniq",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_unix2dos",
+    vendor: true,
+    installed_location: "bin/unix2dos",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_unlink",
+    vendor: true,
+    installed_location: "bin/unlink",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_unshare",
+    vendor: true,
+    installed_location: "bin/unshare",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uptime",
+    vendor: true,
+    installed_location: "bin/uptime",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_usleep",
+    vendor: true,
+    installed_location: "bin/usleep",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uudecode",
+    vendor: true,
+    installed_location: "bin/uudecode",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uuencode",
+    vendor: true,
+    installed_location: "bin/uuencode",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_uuidgen",
+    vendor: true,
+    installed_location: "bin/uuidgen",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_vi",
+    vendor: true,
+    installed_location: "bin/vi",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_vmstat",
+    vendor: true,
+    installed_location: "bin/vmstat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_watch",
+    vendor: true,
+    installed_location: "bin/watch",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_wc",
+    vendor: true,
+    installed_location: "bin/wc",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_which",
+    vendor: true,
+    installed_location: "bin/which",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_whoami",
+    vendor: true,
+    installed_location: "bin/whoami",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_xargs",
+    vendor: true,
+    installed_location: "bin/xargs",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_xxd",
+    vendor: true,
+    installed_location: "bin/xxd",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_yes",
+    vendor: true,
+    installed_location: "bin/yes",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_bin_zcat",
+    vendor: true,
+    installed_location: "bin/zcat",
+    symlink_target: "toybox_vendor",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_firmware_wlanmdsp_otaupdate",
+    vendor: true,
+    installed_location: "firmware/wlanmdsp.otaupdate",
+    symlink_target: "/data/vendor/firmware/wlanmdsp.mbn",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_firmware_wlan_qca_cld_qca6750_WCNSS_qcom_cfg_ini",
+    vendor: true,
+    installed_location: "firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini",
+    symlink_target: "/vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_lib64_libEGL_adreno_so",
+    vendor: true,
+    installed_location: "lib64/libEGL_adreno.so",
+    symlink_target: "egl/libEGL_adreno.so",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_lib64_libGLESv2_adreno_so",
+    vendor: true,
+    installed_location: "lib64/libGLESv2_adreno.so",
+    symlink_target: "egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_lib64_libq3dtools_adreno_so",
+    vendor: true,
+    installed_location: "lib64/libq3dtools_adreno.so",
+    symlink_target: "egl/libq3dtools_adreno.so",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_hlos",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_ramdumps",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/modem",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_readwrite",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/apq/gnss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_apq_gnss_shared",
+    vendor: true,
+    installed_location: "rfs/apq/gnss/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/lpass",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/adsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_adsp_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/adsp/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/cdsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/cdsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_cdsp_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/cdsp/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/modem",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/mpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_mpss_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/mpss/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/slpi",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/slpi",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_slpi_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/slpi/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/tn",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/tn",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_tn_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/tn/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_hlos",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_ramdumps",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/wpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_readwrite",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/mdm/wpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_mdm_wpss_shared",
+    vendor: true,
+    installed_location: "rfs/mdm/wpss/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_hlos",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_ramdumps",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/lpass",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_readwrite",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/msm/adsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_adsp_shared",
+    vendor: true,
+    installed_location: "rfs/msm/adsp/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_hlos",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_ramdumps",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/cdsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_readwrite",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/msm/cdsp",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_cdsp_shared",
+    vendor: true,
+    installed_location: "rfs/msm/cdsp/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_hlos",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_ramdumps",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/modem",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_readwrite",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/msm/mpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_mpss_shared",
+    vendor: true,
+    installed_location: "rfs/msm/mpss/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_hlos",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_ramdumps",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/slpi",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_readwrite",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/msm/slpi",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_slpi_shared",
+    vendor: true,
+    installed_location: "rfs/msm/slpi/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_hlos",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/hlos",
+    symlink_target: "/mnt/vendor/persist/hlos_rfs/shared",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_ramdumps",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/ramdumps",
+    symlink_target: "/data/vendor/tombstones/rfs/wpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_readonly_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/readonly/firmware",
+    symlink_target: "/vendor/firmware_mnt",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_readonly_vendor_firmware",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/readonly/vendor/firmware",
+    symlink_target: "/vendor/firmware",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_readwrite",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/readwrite",
+    symlink_target: "/mnt/vendor/persist/rfs/msm/wpss",
+}
+
+install_symlink {
+    name: "flute_symlink_vendor_rfs_msm_wpss_shared",
+    vendor: true,
+    installed_location: "rfs/msm/wpss/shared",
+    symlink_target: "/mnt/vendor/persist/rfs/shared",
+}
