@@ -1229,7 +1229,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/factory_cmd_config/connectivity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/factory_cmd_config/connectivity.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x_sku1-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x_sku1-snd-card \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x-snd-card \

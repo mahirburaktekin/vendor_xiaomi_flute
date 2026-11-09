@@ -1222,7 +1222,6 @@ vendor/etc/excluded-input-devices.xml
 vendor/etc/factory_cmd_config/connectivity.xml
 vendor/etc/fs_config_dirs
 vendor/etc/fs_config_files
-vendor/etc/fstab.qcom
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x_sku1-snd-card
 vendor/etc/ftm_test_config_volcano-cdp-wsa883x_wcd939x-snd-card
