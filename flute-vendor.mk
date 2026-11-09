@@ -2783,7 +2783,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libtlpd_configmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlpd_configmgr.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libtlpd_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlpd_crypto.so \
@@ -3417,8 +3416,9 @@ PRODUCT_PACKAGES += \
     flute_rc_limits \
     flute_rc_wifilearner
 
-# Kaynak modülüyle (vendor/qcom/opensource/libvmmem) aynı kurulum yoluna düşen blob'lar:
+# Kaynak modüllerle (libvmmem, libtinycompress) aynı kurulum yoluna düşen blob'lar:
 # PRODUCT_COPY_FILES ile kopyalanırsa kaynak sürüm de derlenmeye çalışılıyor
 # (kernel header'ı ister). Android.bp'de prefer'li prebuilt olarak tanımlı.
 PRODUCT_PACKAGES += \
+    libtinycompress \
     libvmmem
