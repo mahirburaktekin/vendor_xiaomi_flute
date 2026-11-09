@@ -2807,7 +2807,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvideotxr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideotxr.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvmfilexfer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmfilexfer.so \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmmem.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti_vendor.so \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/lib64/libVoiceSdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVoiceSdk.so \
@@ -3417,3 +3416,9 @@ PRODUCT_PACKAGES += \
     flute_rc_factory \
     flute_rc_limits \
     flute_rc_wifilearner
+
+# Kaynak modülüyle (vendor/qcom/opensource/libvmmem) aynı kurulum yoluna düşen blob'lar:
+# PRODUCT_COPY_FILES ile kopyalanırsa kaynak sürüm de derlenmeye çalışılıyor
+# (kernel header'ı ister). Android.bp'de prefer'li prebuilt olarak tanımlı.
+PRODUCT_PACKAGES += \
+    libvmmem

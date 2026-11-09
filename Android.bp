@@ -1881,3 +1881,21 @@ prebuilt_etc {
     sub_dir: "init",
     vendor: true,
 }
+
+// Kaynak libvmmem (vendor/qcom/opensource/libvmmem) yerine stock blob kullanılsın.
+cc_prebuilt_library_shared {
+    name: "libvmmem",
+    owner: "xiaomi",
+    vendor: true,
+    prefer: true,
+    compile_multilib: "64",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libvmmem.so"],
+        },
+    },
+    check_elf_files: false,
+    strip: {
+        none: true,
+    },
+}
