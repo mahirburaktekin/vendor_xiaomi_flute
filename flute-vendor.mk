@@ -536,7 +536,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.face:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.face@1.0-service.face \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-qti \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.boot-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot-service.qti \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.cas-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas-service.example \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.clearkey \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.dumpstate-service.xiaomi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate-service.xiaomi \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/bin/hw/android.hardware.gatekeeper-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper-service-qti \
@@ -1681,7 +1680,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/UserDefinedMi.udm:$(TARGET_COPY_OUT_VENDOR)/etc/UserDefinedMi.udm \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.cas-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas-service.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml \
