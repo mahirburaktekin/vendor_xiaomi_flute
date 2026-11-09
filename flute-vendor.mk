@@ -385,7 +385,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/mdss_dsi_p83_42_03_0f_wqxga_video_cphy_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_p83_42_03_0f_wqxga_video_cphy_mi.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/mimdconfig.json:$(TARGET_COPY_OUT_ODM)/etc/mimdconfig.json \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE_GPL.html.gz \
-    $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/p83cn_e_build.prop:$(TARGET_COPY_OUT_ODM)/etc/p83cn_e_build.prop \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/p83cn_h_build.prop:$(TARGET_COPY_OUT_ODM)/etc/p83cn_h_build.prop \
     $(FLUTE_VENDOR_PATH)/proprietary/odm/etc/p83cn_n_build.prop:$(TARGET_COPY_OUT_ODM)/etc/p83cn_n_build.prop \
@@ -1487,7 +1486,6 @@ PRODUCT_COPY_FILES += \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/modem/Diag_fulldpl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag_fulldpl.cfg \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/modem/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/gps_diag.cfg \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE_GPL.html.gz \
-    $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/etc/passwd \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     $(FLUTE_VENDOR_PATH)/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \

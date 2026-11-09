@@ -378,7 +378,6 @@ odm/etc/mdss_dsi_p83_42_02_0e_wqxga_video_cphy_mi.xml
 odm/etc/mdss_dsi_p83_42_03_0f_wqxga_video_cphy_mi.xml
 odm/etc/mimdconfig.json
 odm/etc/NOTICE_GPL.html.gz
-odm/etc/NOTICE.xml.gz
 odm/etc/p83cn_e_build.prop
 odm/etc/p83cn_h_build.prop
 odm/etc/p83cn_n_build.prop
@@ -1486,7 +1485,6 @@ vendor/etc/modem/Diag.cfg
 vendor/etc/modem/Diag_fulldpl.cfg
 vendor/etc/modem/gps_diag.cfg
 vendor/etc/NOTICE_GPL.html.gz
-vendor/etc/NOTICE.xml.gz
 vendor/etc/passwd
 vendor/etc/perf/avcsysnodesconfigs.xml
 vendor/etc/perf/commonresourceconfigs.xml
