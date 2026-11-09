@@ -529,7 +529,6 @@ vendor/bin/hw/android.hardware.audio.service_64
 vendor/bin/hw/android.hardware.biometrics.face@1.0-service.face
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
 vendor/bin/hw/android.hardware.boot-service.qti
-vendor/bin/hw/android.hardware.cas-service.example
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/bin/hw/android.hardware.dumpstate-service.xiaomi
 vendor/bin/hw/android.hardware.gatekeeper-service-qti
@@ -1679,7 +1678,6 @@ vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/usb_compositions.conf
 vendor/etc/usecaseKvManager.xml
 vendor/etc/UserDefinedMi.udm
-vendor/etc/vintf/manifest/android.hardware.cas-service.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.xml
 vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
